@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarketSpace â€” Studi Kasus E-Commerce</title>
+  <meta name="description" content="Studi kasus desain UI/UX untuk aplikasi e-commerce MarketSpace. Proyek portfolio web development." />
+
+  <!-- Google Fonts: Lora + Nunito Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-mark">M</span>
+        MarketSpace
+      </a>
+
+      <ul class="nav__list" id="nav-menu">
+        <li><a href="#hero" class="nav__link active">Home</a></li>
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#design" class="nav__link">Design</a></li>
+        <li><a href="#prototype" class="nav__link">Prototype</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="hero">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <p class="hero__label">E-Commerce Case Study</p>
+          <h1 class="hero__title">
+            Pengalaman Belanja<br />
+            <span class="hero__title--accent">Modern & Intuitif</span>
+          </h1>
+          <p class="hero__subtitle">
+            MarketSpace menghadirkan solusi e-commerce yang berfokus pada kemudahan navigasi, checkout yang efisien, dan pengalaman pengguna yang menyenangkan.
+          </p>
+          <div class="hero__actions">
+            <a href="#prototype" class="btn btn--primary">Lihat Prototype</a>
+            <a href="#features" class="btn btn--outline">Jelajahi Fitur</a>
+          </div>
+        </div>
+
+        <div class="hero__mockup">
+          <div class="hero__phone">
+            <div class="hero__phone-notch"></div>
+            <div class="hero__phone-screen">
+              <p class="hero__phone-label">App Mockup</p>
+              <span class="hero__phone-hint">Letakkan gambar<br/>mockup di sini</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- decorative -->
+      <div class="hero__decor hero__decor--1" aria-hidden="true"></div>
+      <div class="hero__decor hero__decor--2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============================== ABOUT / KENAPA MARKETSPACE ============================== -->
+    <section class="about" id="features">
+      <div class="about__inner container">
+
+        <!-- Left: Explanation -->
+        <div class="about__text">
+          <h2 class="about__title">Kenapa <span class="accent">MarketSpace</span>?</h2>
+          <p class="about__paragraph">
+            Proyek ini berfokus pada identifikasi dan penyelesaian <strong>pain points</strong> kritis yang dihadapi pelaku UMKM dan penyedia jasa di Indonesia, terutama saat mencoba memasarkan produk mereka ke ekosistem e-commerce.
+          </p>
+          <p class="about__paragraph about__paragraph--muted">
+            Tujuannya adalah merancang pengalaman yang lebih andal, efisien, dan ramah pengguna untuk mengatasi masalah seperti manajemen stok manual, literasi digital rendah, tampilan yang membingungkan, dan transaksi yang tidak stabil.
+          </p>
+        </div>
+
+        <!-- Right: Design Goals Card -->
+        <div class="about__goals">
+          <h3 class="about__goals-title">Design Goals</h3>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--green">âš¡</div>
+            <div>
+              <h4 class="about__goal-name">Simplicity First</h4>
+              <p class="about__goal-desc">Memangkas kompleksitas operasional hingga 50% dengan mengurangi langkah proses (clicks).</p>
+            </div>
+          </div>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--blue">ðŸŽ¯</div>
+            <div>
+              <h4 class="about__goal-name">Inclusive Design</h4>
+              <p class="about__goal-desc">UI yang elegan, ramah untuk pelaku UMKM dan pengguna non-tech savvy.</p>
+            </div>
+          </div>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--brand">ðŸŒ¿</div>
+            <div>
+              <h4 class="about__goal-name">Fresh Identity</h4>
+              <p class="about__goal-desc">Visual hijau yang menyegarkan, berbeda dari kompetitor yang sudah ada.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================== USER PERSONA ============================== -->
+    <section class="persona" id="persona">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Empathize</p>
+          <h2 class="section-title">User <span class="accent">Persona</span></h2>
+          <p class="section-desc">Klik nama persona untuk melihat detail profil, kebutuhan, tantangan, dan peluang desain.</p>
+        </header>
+
+        <!-- Persona Tabs -->
+        <div class="persona__tabs" id="persona-tabs">
+          <button class="persona__tab active" data-index="0">
+            <span class="persona__avatar">ðŸ‘©â€ðŸ’¼</span>
+            <span class="persona__tab-name">Fikri Ramadhan</span>
+            <span class="persona__tab-role">Wirausaha Online</span>
+          </button>
+          <button class="persona__tab" data-index="1">
+            <span class="persona__avatar">ðŸ‘¨â€ðŸ’¼</span>
+            <span class="persona__tab-name">Susanto H. Wibowo</span>
+            <span class="persona__tab-role">Pemilik Toko Sembako</span>
+          </button>
+          <button class="persona__tab" data-index="2">
+            <span class="persona__avatar">ðŸ‘¨â€ðŸŽ¨</span>
+            <span class="persona__tab-name">Haris W. Ramadhani</span>
+            <span class="persona__tab-role">Mahasiswa / Freelancer</span>
+          </button>
+          <button class="persona__tab" data-index="3">
+            <span class="persona__avatar">ðŸ‘©â€ðŸŽ“</span>
+            <span class="persona__tab-name">Widya D. Yuanika R.</span>
+            <span class="persona__tab-role">Pembeli Selektif</span>
+          </button>
+          <button class="persona__tab" data-index="4">
+            <span class="persona__avatar">ðŸ‘©â€ðŸ’»</span>
+            <span class="persona__tab-name">Zaskiya Soaldi A.A.</span>
+            <span class="persona__tab-role">Pengguna Aktif Digital</span>
+          </button>
+        </div>
+
+        <!-- â•â•â• Panel 1: Fikri Ramadhan â•â•â• -->
+        <div class="persona__panel active" data-panel="0">
+          <div class="persona__grid">
+            <!-- Top Row -->
+            <div class="persona__top">
+              <div class="persona__profile-col">
+                <div class="persona__photo-wrap">ðŸ‘©â€ðŸ’¼</div>
+                <h3 class="persona__name">Fikri Ramadhan</h3>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Key Attribute</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Mahasiswa muda, usia 21 tahun</div>
+                  <div class="persona__sticky">Punya produk yang dijual secara online</div>
+                  <div class="persona__sticky">Pengguna aktif WhatsApp dan Instagram untuk bisnis</div>
+                  <div class="persona__sticky">Menghargai kemudahan dan efisiensi</div>
+                  <div class="persona__sticky">Perlu pengalaman yang mudah dalam Cash on Delivery</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Short Description</h4>
+                <p class="persona__desc-text">Fikri adalah seorang wirausahawan muda berusia 21 tahun yang menjalankan usaha penjualan produk secara online. Ia mengelola seluruh operasional bisnisnya sendiri, mulai dari penyiapan produk hingga promosi melalui media sosial. Fikri sangat menghargai efisiensi dan kemudahan penggunaan aplikasi, serta mendambakan sistem otomatisasi untuk mengurangi beban kerja manual yang menyita waktu.</p>
+              </div>
+            </div>
+            <!-- Middle Row -->
+            <div class="persona__mid">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Needs</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Kemudahan dalam mengelola pesanan agar tidak terjadi kesalahan</div>
+                  <div class="persona__sticky">Fitur pendukung yang bisa menyesuaikan produk sesuai permintaan konsumen</div>
+                  <div class="persona__sticky">Alur toko yang mudah diakses dengan antarmuka sederhana</div>
+                  <div class="persona__sticky">Kemampuan meningkatkan cara efektif untuk menjangkau calon pembeli</div>
+                  <div class="persona__sticky">Pengelolaan produk dan informasi secara cepat dan real-time</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Challenges</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Pesanan sering kurang/cacat dari distributor, sulit memverifikasi kualitas</div>
+                  <div class="persona__sticky">Mengandalkan stok yang tersedia, harus menunggu restock dari supplier</div>
+                  <div class="persona__sticky">Pemasukan tidak konsisten, pengelolaan keuangan masih manual</div>
+                  <div class="persona__sticky">Produksi dilakukan sendiri tanpa bantuan digital</div>
+                  <div class="persona__sticky">Pemasaran hanya bergantung pada media sosial yang terbatas jangkauannya</div>
+                </div>
+              </div>
+            </div>
+            <!-- Bottom Row -->
+            <div class="persona__bottom">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--orange">Opportunities</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Fitur "produksi/bisnis" yang mengoptimalkan pengelolaan dari bahan baku ke produk</div>
+                  <div class="persona__sticky">Proses pencarian dan distribusi produk yang terstruktur dan bisa dipasarkan langsung</div>
+                  <div class="persona__sticky">Dashboard lengkap untuk tracking order, stok, dan pengiriman</div>
+                  <div class="persona__sticky">Fitur auto-restock dengan notifikasi stok minimum</div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- User Journey Map -->
+            <div class="persona__journey-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--green">User Journey Map</h4>
+                                                <div class="persona__journey-table-wrapper">
+                  <table class="persona__journey-table">
+                    <thead>
+                      <tr>
+                        <th>FIKRI RAMADHAN</th>
+                        <th>STAGE 1<br>AWARENESS</th>
+                        <th>STAGE 2<br>CONSIDERATION</th>
+                        <th>STAGE 3<br>BOOKING</th>
+                        <th>STAGE 4<br>RIDE</th>
+                        <th>STAGE 5<br>AFTER USE</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>AKTIVITAS</td>
+                        <td><ul><li>Merasa penjualan menurun atau tidak berkembang</li><li>Mulai mencari cara promosi yang lebih efektif</li><li>Mendengar atau melihat aplikasi bisnis dari media sosial/teman</li></ul></td>
+                        <td><ul><li>Mencari dan mencoba beberapa aplikasi</li><li>Membandingkan fitur dan kemudahan penggunaan</li><li>Bertanya ke teman atau melihat review</li></ul></td>
+                        <td><ul><li>Download dan daftar akun</li><li>Mulai eksplorasi fitur dasar</li><li>Mencoba menjalankan fungsi utama aplikasi</li></ul></td>
+                        <td><ul><li>Mulai upload produk</li><li>Mengatur informasi usaha</li><li>Mencoba fitur promosi atau penjualan</li></ul></td>
+                        <td><ul><li>Menggunakan aplikasi secara rutin</li><li>Mulai merasakan manfaat</li><li>Merekomendasikan ke teman sesama UMKM</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>EMOSI</td>
+                        <td><ul><li>Khawatir usaha tidak berkembang</li><li>Bingung harus mulai dari mana</li><li>Ada harapan menemukan solusi</li></ul></td>
+                        <td><ul><li>Ragu dalam memilih</li><li>Takut salah aplikasi</li><li>Sedikit tertarik tapi belum yakin</li></ul></td>
+                        <td><ul><li>Penasaran dengan hasilnya</li><li>Sedikit bingung saat awal penggunaan</li><li>Berharap aplikasi membantu usaha</li></ul></td>
+                        <td><ul><li>Mulai memahami sistem</li><li>Sedikit lebih percaya diri</li><li>Masih butuh arahan</li></ul></td>
+                        <td><ul><li>Puas dengan hasil</li><li>Senang karena usaha berkembang</li><li>Percaya pada aplikasi</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>PAIN POINT</td>
+                        <td><ul><li>Tidak tahu strategi promosi yang tepat</li><li>Promosi masih manual dan kurang efektif</li><li>Minim pengetahuan digital marketing</li></ul></td>
+                        <td><ul><li>Terlalu banyak pilihan aplikasi</li><li>Tidak paham fungsi tiap fitur</li><li>Tampilan aplikasi kadang membingungkan</li></ul></td>
+                        <td><ul><li>Tidak tahu langkah awal penggunaan</li><li>Takut salah klik atau salah setting</li><li>Kurang panduan saat pertama kali masuk</li></ul></td>
+                        <td><ul><li>Proses input data terasa lama</li><li>Beberapa fitur belum dipahami sepenuhnya</li><li>Hasil belum langsung terlihat</li></ul></td>
+                        <td><ul><li>Butuh fitur lanjutan untuk scale up</li><li>Ingin performa lebih optimal</li><li>Mulai butuh analisis data</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>PELUANG SOLUSI</td>
+                        <td><ul><li>Edukasi dasar bisnis & promosi dalam aplikasi</li><li>Rekomendasi fitur sesuai kebutuhan user</li><li>Konten tips sederhana (tidak terlalu teknis)</li></ul></td>
+                        <td><ul><li>Tampilan UI sederhana & intuitif</li><li>Penjelasan fitur dengan bahasa mudah</li><li>Demo atau preview penggunaan aplikasi</li></ul></td>
+                        <td><ul><li>Tutorial step-by-step yang interaktif</li><li>Onboarding sederhana dan tidak membingungkan</li><li>Bantuan langsung (tooltip / panduan cepat)</li></ul></td>
+                        <td><ul><li>Fitur otomatis (auto-fill / auto-promosi)</li><li>Shortcut untuk proses cepat</li><li>Panduan lanjutan berbasis kebutuhan user</li></ul></td>
+                        <td><ul><li>Program loyalitas atau reward</li><li>Fitur advanced (opsional, tidak memaksa)</li><li>Insight penjualan & laporan sederhana</li></ul></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+<!-- Interview Data -->
+            <div class="persona__interview-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Interview Data</h4>
+                <div class="interview__qa-list">
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 1:</strong><br>
+                      [Isi Pertanyaan 1 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 1 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 2:</strong><br>
+                      [Isi Pertanyaan 2 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 2 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 3:</strong><br>
+                      [Isi Pertanyaan 3 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 3 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 4:</strong><br>
+                      [Isi Pertanyaan 4 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 4 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 5:</strong><br>
+                      [Isi Pertanyaan 5 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 5 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 6:</strong><br>
+                      [Isi Pertanyaan 6 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 6 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 7:</strong><br>
+                      [Isi Pertanyaan 7 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 7 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 8:</strong><br>
+                      [Isi Pertanyaan 8 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 8 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 9:</strong><br>
+                      [Isi Pertanyaan 9 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 9 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 10:</strong><br>
+                      [Isi Pertanyaan 10 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 10 di sini]
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+        <!-- â•â•â• Panel 2: Susanto Hari Wibowo â•â•â• -->
+        <div class="persona__panel" data-panel="1">
+          <div class="persona__grid">
+            <div class="persona__top">
+              <div class="persona__profile-col">
+                <div class="persona__photo-wrap">ðŸ‘¨â€ðŸ’¼</div>
+                <h3 class="persona__name">Susanto Hari Wibowo</h3>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Key Attribute</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Pria wiraswasta berusia 44 tahun</div>
+                  <div class="persona__sticky">Mengandalkan pembukuan sederhana berbasis catatan manual</div>
+                  <div class="persona__sticky">Memiliki kebiasaan pengecekan stok secara manual setiap hari</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Short Description</h4>
+                <p class="persona__desc-text">Susanto Hari Wibowo adalah seorang wiraswasta berusia 44 tahun yang mengelola toko sembako dan plastik. Kesehariannya dihabiskan dengan mengecek stok barang dari gudang ke display serta melayani pembeli eceran dan pedagang makanan. Fokus utamanya adalah memastikan ketersediaan barang agar tidak mengecewakan pelanggan, namun ia masih menghadapi kendala dalam pengukuran stok yang akurat dan pemanfaatan teknologi untuk promosi.</p>
+              </div>
+            </div>
+            <div class="persona__mid">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Needs</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Fitur validasi/chat penjual dan pembeli agar lebih mudah bertransaksi</div>
+                  <div class="persona__sticky">Aplikasi yang membantu menghindari kekeliruan jumlah stok barang</div>
+                  <div class="persona__sticky">Penyediaan tempat mengelompokkan penjualan berdasarkan kategori</div>
+                  <div class="persona__sticky">Penyederhanaan fitur yang membantu penjual dan pelanggan</div>
+                  <div class="persona__sticky">Kemudahan menampilkan produk dan sistem promo sederhana</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Challenges</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Sulit mengetahui kapan harus restock, butuh manajemen stok otomatis</div>
+                  <div class="persona__sticky">Belum menerapkan teknologi digital dalam operasional toko</div>
+                  <div class="persona__sticky">Pengecekan barang masih manual karena belum ada karyawan</div>
+                  <div class="persona__sticky">Barang sering rusak saat pengiriman dari gudang ke display</div>
+                </div>
+              </div>
+            </div>
+            <div class="persona__bottom">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--orange">Opportunities</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Fitur pencarian stok yang detail untuk pengelolaan gudang</div>
+                  <div class="persona__sticky">Fitur analisis penjualan dan keuntungan otomatis</div>
+                  <div class="persona__sticky">Kemudahan penggunaan aplikasi yang ramah untuk pengguna non-tech</div>
+                  <div class="persona__sticky">Fitur auto-restock dan pemberitahuan stok minimum otomatis</div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- User Journey Map -->
+            <div class="persona__journey-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--green">User Journey Map</h4>
+                                                <div class="persona__journey-table-wrapper">
+                  <table class="persona__journey-table">
+                    <thead>
+                      <tr>
+                        <th>SUSANTO HARI WIBOWO</th>
+                        <th>STAGE 1<br>AWARENESS</th>
+                        <th>STAGE 2<br>CONSIDERATION</th>
+                        <th>STAGE 3<br>BOOKING</th>
+                        <th>STAGE 4<br>RIDE</th>
+                        <th>STAGE 5<br>AFTER USE</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>AKTIVITAS</td>
+                        <td><ul><li>Mengecek stok fisik di gudang.</li><li>Menyadari stok plastik/sembako tertentu mulai habis.</li></ul></td>
+                        <td><ul><li>Membuka Facebook untuk mencari supplier baru.</li><li>Melihat foto-foto produk yang diposting.</li></ul></td>
+                        <td><ul><li>Menghubungi supplier melalui inbox FB atau telepon.</li><li>Melakukan kesepakatan harga dan jumlah pesanan.</li></ul></td>
+                        <td><ul><li>Menunggu barang datang ke toko.</li><li>Menerima paket dari kurir/supplier.</li></ul></td>
+                        <td><ul><li>Mengecek kualitas fisik barang (ketebalan plastik).</li><li>Menata barang baru ke rak display.</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>EMOSI</td>
+                        <td><ul><li>Waspada (takut stok kosong saat pelanggan datang).</li></ul></td>
+                        <td><ul><li>Berharap (ingin menemukan harga dan kualitas terbaik).</li></ul></td>
+                        <td><ul><li>Ragu (takut tertipu atau kualitas tidak sesuai foto).</li></ul></td>
+                        <td><ul><li>Tidak Sabar (menunggu kepastian waktu sampai).</li></ul></td>
+                        <td><ul><li>Kecewa/Marah (jika kualitas plastik tipis/gampang robek).</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>PAIN POINT</td>
+                        <td><ul><li>Stok tidak terukur secara akurat karena manual.</li><li>Tumpukan barang di gudang menghalangi pandangan.</li></ul></td>
+                        <td><ul><li>Banyak penipuan di platform Facebook.</li><li>Representasi foto seringkali tidak jujur.</li></ul></td>
+                        <td><ul><li>Proses pemesanan manual lewat chat/telp sangat melelahkan.</li><li>Data pesanan sering hilang di chat.</li></ul></td>
+                        <td><ul><li>Tidak ada kepastian waktu kapan barang sampai.</li></ul></td>
+                        <td><ul><li>Kualitas barang yang datang seringkali jauh di bawah standar.</li></ul></td>
+                      </tr>
+                      <tr>
+                        <td>PELUANG SOLUSI</td>
+                        <td><ul><li>Aplikasi pencatatan stok otomatis.</li></ul></td>
+                        <td><ul><li>Sistem rating dan ulasan supplier yang asli.</li></ul></td>
+                        <td><ul><li>Fitur "One-Click Ordering" tanpa harus chat panjang lebar.</li><li>Pencatatan riwayat transaksi yang rapi.</li></ul></td>
+                        <td><ul><li>Fitur pelacakan pengiriman secara real-time.</li></ul></td>
+                        <td><ul><li>Jaminan kualitas atau fitur komplain jika barang rusak/jelek.</li></ul></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+<!-- Interview Data -->
+            <div class="persona__interview-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Interview Data</h4>
+                <div class="interview__qa-list">
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 1:</strong><br>
+                      [Isi Pertanyaan 1 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 1 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 2:</strong><br>
+                      [Isi Pertanyaan 2 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 2 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 3:</strong><br>
+                      [Isi Pertanyaan 3 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 3 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 4:</strong><br>
+                      [Isi Pertanyaan 4 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 4 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 5:</strong><br>
+                      [Isi Pertanyaan 5 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 5 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 6:</strong><br>
+                      [Isi Pertanyaan 6 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 6 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 7:</strong><br>
+                      [Isi Pertanyaan 7 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 7 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 8:</strong><br>
+                      [Isi Pertanyaan 8 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 8 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 9:</strong><br>
+                      [Isi Pertanyaan 9 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 9 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 10:</strong><br>
+                      [Isi Pertanyaan 10 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 10 di sini]
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- â•â•â• Panel 3: Haris Wahyu Ramadhani â•â•â• -->
+        <div class="persona__panel" data-panel="2">
+          <div class="persona__grid">
+            <div class="persona__top">
+              <div class="persona__profile-col">
+                <div class="persona__photo-wrap">ðŸ‘¨â€ðŸŽ¨</div>
+                <h3 class="persona__name">Haris Wahyu Ramadhani</h3>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Key Attribute</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Pria mahasiswa di ITS</div>
+                  <div class="persona__sticky">Berencana memulai bisnis freelance kreatif</div>
+                  <div class="persona__sticky">Memiliki keterampilan teknis dan pengalaman e-commerce</div>
+                  <div class="persona__sticky">Memiliki keahlian desain produk di bidang kreatif</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Short Description</h4>
+                <p class="persona__desc-text">Haris adalah seorang mahasiswa aktif jurusan Desain Produk di Institut Teknologi Sepuluh November yang memiliki semangat kewirausahaan. Untuk mengatasi kejenuhan dan rutinitas kuliah yang berulang, ia mendirikan usaha jasa kreatif bersama lima orang temannya. Meskipun memiliki keahlian teknis dalam desain, Haris menghadapi tantangan besar dalam memperluas jangkauan pasar dan merasa awam dalam mengoperasikan platform e-commerce untuk menjual jasa profesionalnya.</p>
+              </div>
+            </div>
+            <div class="persona__mid">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Needs</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Halaman khusus display portofolio agar produk lebih menarik</div>
+                  <div class="persona__sticky">Fitur promosi di luar marketplace untuk memaksimalkan jangkauan</div>
+                  <div class="persona__sticky">Filter pencarian berdasarkan kebutuhan spesifik pelanggan</div>
+                  <div class="persona__sticky">Integrasi/import order untuk memudahkan pengelolaan</div>
+                  <div class="persona__sticky">Peta lokasi yang terhubung dengan order dan pengiriman</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Challenges</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Proses penjualan berbelit dan tidak efisien</div>
+                  <div class="persona__sticky">Tidak ada tempat untuk upload portfolio/contoh kerja</div>
+                  <div class="persona__sticky">Pembayaran manual yang tidak efisien</div>
+                  <div class="persona__sticky">Kurang tahu platform online untuk menjual jasa profesional</div>
+                </div>
+              </div>
+            </div>
+            <div class="persona__bottom">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--orange">Opportunities</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Penyederhanaan dan efisiensi proses pemasaran produk/jasa</div>
+                  <div class="persona__sticky">UI/UX halaman katalog/portfolio yang clean di platform</div>
+                  <div class="persona__sticky">Filter/kategori untuk membedakan jual produk dan jual jasa</div>
+                  <div class="persona__sticky">Pembuatan produk collection dan portfolio digital</div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- User Journey Map -->
+            <div class="persona__journey-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--green">User Journey Map</h4>
+                                </div>
+                </div>
+              </div>
+<!-- Interview Data -->
+            <div class="persona__interview-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Interview Data</h4>
+                <div class="interview__qa-list">
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 1:</strong><br>
+                      [Isi Pertanyaan 1 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 1 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 2:</strong><br>
+                      [Isi Pertanyaan 2 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 2 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 3:</strong><br>
+                      [Isi Pertanyaan 3 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 3 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 4:</strong><br>
+                      [Isi Pertanyaan 4 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 4 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 5:</strong><br>
+                      [Isi Pertanyaan 5 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 5 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 6:</strong><br>
+                      [Isi Pertanyaan 6 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 6 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 7:</strong><br>
+                      [Isi Pertanyaan 7 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 7 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 8:</strong><br>
+                      [Isi Pertanyaan 8 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 8 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 9:</strong><br>
+                      [Isi Pertanyaan 9 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 9 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 10:</strong><br>
+                      [Isi Pertanyaan 10 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 10 di sini]
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            </div>
+
+          </div>
+        </div>
+
+        <!-- â•â•â• Panel 4: Widya Dny Yuanika Rahayu â•â•â• -->
+        <div class="persona__panel" data-panel="3">
+          <div class="persona__grid">
+            <div class="persona__top">
+              <div class="persona__profile-col">
+                <div class="persona__photo-wrap">ðŸ‘©â€ðŸŽ“</div>
+                <h3 class="persona__name">Widya Dny Yuanika R.</h3>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Key Attribute</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Mahasiswa aktif Manajemen</div>
+                  <div class="persona__sticky">Punya usaha eCommerce</div>
+                  <div class="persona__sticky">Pengguna aktif fitur Live Shopping</div>
+                  <div class="persona__sticky">Suka Freebie dan diskon</div>
+                  <div class="persona__sticky">Mengikuti banyak akun toko dan komunitas online</div>
+                  <div class="persona__sticky">Mahasiswa dengan pengalaman Manajemen</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Short Description</h4>
+                <p class="persona__desc-text">Widya adalah pengguna yang cerdas dan selektif dalam berbelanja online. Ia terbiasa membandingkan harga antar toko, mencari promo terbaik, dan memanfaatkan fitur live untuk melihat produk secara lebih nyata dan mendapatkan promo sebelum membeli.</p>
+              </div>
+            </div>
+            <div class="persona__mid">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Needs</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Fitur perbandingan harga antar toko yang mudah diakses</div>
+                  <div class="persona__sticky">Tampilan katalog rapi dilengkapi filter detail</div>
+                  <div class="persona__sticky">Proses pemesanan bisa dilakukan kembali dengan sekali klik</div>
+                  <div class="persona__sticky">Live streaming yang bisa membandingkan produk langsung</div>
+                  <div class="persona__sticky">Checkout otomatis dan terintegrasi promosi</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Challenges</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Terlalu banyak promo sulit dibedakan mana yang asli</div>
+                  <div class="persona__sticky">Informasi produk tidak konsisten antar toko</div>
+                  <div class="persona__sticky">Sering keluar promo yang tidak relevan</div>
+                  <div class="persona__sticky">Review tidak dapat diandalkan, banyak review palsu</div>
+                  <div class="persona__sticky">Review lengkap tapi tidak relevan dengan produk dicari</div>
+                </div>
+              </div>
+            </div>
+            <div class="persona__bottom">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--orange">Opportunities</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Fitur "Promo Comparison" membandingkan harga dan kualitas</div>
+                  <div class="persona__sticky">Filter "Live Deals" langsung ke penjual terpercaya</div>
+                  <div class="persona__sticky">Review filter berkualitas berdasarkan keyword dan rating</div>
+                  <div class="persona__sticky">Dashboard penyimpanan yang lebih interaktif</div>
+                  <div class="persona__sticky">Rekomendasi akurat dari history pembelian pengguna</div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- User Journey Map -->
+            <div class="persona__journey-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--green">User Journey Map</h4>
+                                </div>
+                </div>
+              </div>
+<!-- Interview Data -->
+            <div class="persona__interview-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Interview Data</h4>
+                <div class="interview__qa-list">
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 1:</strong><br>
+                      [Isi Pertanyaan 1 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 1 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 2:</strong><br>
+                      [Isi Pertanyaan 2 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 2 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 3:</strong><br>
+                      [Isi Pertanyaan 3 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 3 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 4:</strong><br>
+                      [Isi Pertanyaan 4 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 4 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 5:</strong><br>
+                      [Isi Pertanyaan 5 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 5 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 6:</strong><br>
+                      [Isi Pertanyaan 6 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 6 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 7:</strong><br>
+                      [Isi Pertanyaan 7 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 7 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 8:</strong><br>
+                      [Isi Pertanyaan 8 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 8 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 9:</strong><br>
+                      [Isi Pertanyaan 9 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 9 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 10:</strong><br>
+                      [Isi Pertanyaan 10 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 10 di sini]
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            </div>
+
+          </div>
+        </div>
+
+        <!-- â•â•â• Panel 5: Zaskiya Soaldi A.A. â•â•â• -->
+        <div class="persona__panel" data-panel="4">
+          <div class="persona__grid">
+            <div class="persona__top">
+              <div class="persona__profile-col">
+                <div class="persona__photo-wrap">ðŸ‘©â€ðŸ’»</div>
+                <h3 class="persona__name">Zaskiya Soaldi A.A.</h3>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Key Attribute</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Menggunakan berbagai platform belanja</div>
+                  <div class="persona__sticky">Pengguna aktif Shopee, Tokopedia, Grab</div>
+                  <div class="persona__sticky">Berbelanja rutin setiap minggu</div>
+                  <div class="persona__sticky">Menyukai informasi dan penawaran</div>
+                  <div class="persona__sticky">Tertarik pada makanan dan kebutuhan harian</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Short Description</h4>
+                <p class="persona__desc-text">Zaskiya adalah seorang pengguna aktif berbagai aplikasi digital yang cukup sering berbelanja online setiap minggunya, terutama untuk memenuhi kebutuhan sehari-hari dan makanan. Ia menginginkan pengalaman belanja yang efisien dengan tampilan aplikasi yang bersih serta proses transaksi yang cepat tanpa banyak hambatan teknis atau gangguan visual.</p>
+              </div>
+            </div>
+            <div class="persona__mid">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Needs</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Tampilan belanja bersih tanpa terlalu banyak iklan</div>
+                  <div class="persona__sticky">Fitur membandingkan harga tanpa keluar dari tampilan</div>
+                  <div class="persona__sticky">Penawaran yang tidak mengganggu pengalaman belanja</div>
+                  <div class="persona__sticky">Eksplorasi produk dengan detail lengkap dalam satu halaman</div>
+                  <div class="persona__sticky">Proses checkout cepat dan simpel tanpa banyak langkah</div>
+                </div>
+              </div>
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Challenges</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Terlalu banyak iklan yang mengurangi kenyamanan belanja</div>
+                  <div class="persona__sticky">Sulit berbelanja karena penuh notifikasi dan pop-up</div>
+                  <div class="persona__sticky">Aplikasi berat/lambat saat proses transaksi</div>
+                  <div class="persona__sticky">Terlalu banyak langkah untuk memilih yang paling murah</div>
+                  <div class="persona__sticky">Fitur terlalu banyak membuat tampilan tidak fokus</div>
+                </div>
+              </div>
+            </div>
+            <div class="persona__bottom">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--orange">Opportunities</h4>
+                <div class="persona__stickies">
+                  <div class="persona__sticky">Menyederhanakan tampilan utama tanpa iklan mengganggu</div>
+                  <div class="persona__sticky">Dashboard pembeli sederhana dan mudah digunakan</div>
+                  <div class="persona__sticky">Fitur perbandingan harga langsung dari halaman pencarian</div>
+                  <div class="persona__sticky">Proses checkout "Quick Buy" tanpa banyak konfirmasi</div>
+                  <div class="persona__sticky">Informasi toko bersih dan terorganisir tanpa popup</div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- User Journey Map -->
+            <div class="persona__journey-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--green">User Journey Map</h4>
+                                </div>
+                </div>
+              </div>
+<!-- Interview Data -->
+            <div class="persona__interview-row">
+              <div class="persona__section-box">
+                <h4 class="persona__section-title persona__section-title--blue">Interview Data</h4>
+                <div class="interview__qa-list">
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 1:</strong><br>
+                      [Isi Pertanyaan 1 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 1 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 2:</strong><br>
+                      [Isi Pertanyaan 2 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 2 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 3:</strong><br>
+                      [Isi Pertanyaan 3 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 3 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 4:</strong><br>
+                      [Isi Pertanyaan 4 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 4 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 5:</strong><br>
+                      [Isi Pertanyaan 5 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 5 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 6:</strong><br>
+                      [Isi Pertanyaan 6 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 6 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 7:</strong><br>
+                      [Isi Pertanyaan 7 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 7 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 8:</strong><br>
+                      [Isi Pertanyaan 8 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 8 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 9:</strong><br>
+                      [Isi Pertanyaan 9 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 9 di sini]
+                    </div>
+                  </div>
+                  <div class="interview__qa-item">
+                    <div class="interview__sticky--red">
+                      <strong>Question 10:</strong><br>
+                      [Isi Pertanyaan 10 di sini]
+                    </div>
+                    <div class="interview__sticky--yellow">
+                      <strong>Answer:</strong><br>
+                      [Isi Jawaban 10 di sini]
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================== AFFINITY MAP / EMPATHIZE ============================== -->
+    <section class="affinity" id="empathize">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Empathize</p>
+          <h2 class="section-title">Affinity <span class="accent">Map</span></h2>
+          <p class="section-desc">Pemetaan masalah pengguna berdasarkan riset dan observasi mendalam terhadap pelaku UMKM.</p>
+        </header>
+
+        <div class="affinity__scroll">
+          <div class="affinity__board">
+
+            <!-- ===== BOX 1: MAIN PROBLEM (Green Headers) ===== -->
+            <div class="affinity__headers">
+              <div class="affinity__header">Manajemen Operasional &amp; Inventaris</div>
+              <div class="affinity__header">Pemasaran &amp; Jangkauan Pasar</div>
+              <div class="affinity__header">Antarmuka Aplikasi (UI/UX)</div>
+              <div class="affinity__header">Transaksi &amp; Kepercayaan Pembeli</div>
+              <div class="affinity__header affinity__header--main">Main Problem</div>
+            </div>
+
+            <!-- ===== BOX 2: INSIGHT (Green Border) ===== -->
+            <div class="affinity__box affinity__box--insight">
+              <div class="affinity__box-badge affinity__box-badge--insight">Insight</div>
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--dark">Ketidakefisienan operasional formal menyebabkan risiko kehilangan pendapatan akibat manajemen stok yang buruk.</div>
+                <div class="affinity__note affinity__note--dark">Ketergantungan literasi digital membuat pelaku usaha kecil sulit bersaing dan memasarkan usaha secara profesional.</div>
+                <div class="affinity__note affinity__note--dark">Desain antarmuka yang tidak intuitif dan membingungkan menghambat efisiensi belanja dan kepuasan pengguna.</div>
+                <div class="affinity__note affinity__note--dark">Hilangnya kepercayaan pembeli akibat ketidakstabilan teknis transaksi menjadi penghalang utama dalam proses pembelian.</div>
+              </div>
+            </div>
+
+            <!-- ===== BOX 3: PROBLEM (Blue Dashed Border) ===== -->
+            <div class="affinity__box affinity__box--problem">
+              <div class="affinity__box-badge affinity__box-badge--problem">Problem</div>
+
+              <!-- Problem Row 1 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--c1">Mengandalkan pencatatan kondisi dan stok barang secara manual dan offline.</div>
+                <div class="affinity__note affinity__note--c3">Pemasaran konvensional hanya via mulut ke mulut dan WhatsApp.</div>
+                <div class="affinity__note affinity__note--c5">Menu aplikasi membingungkan dan sulit dipahami.</div>
+                <div class="affinity__note affinity__note--c6">Sering kecil kesalahan proses klaim karena ketidak-jelasan prosedur.</div>
+              </div>
+
+              <!-- Problem Row 2 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--c1">Pengecekan stok masih manual setiap pagi di gudang.</div>
+                <div class="affinity__note affinity__note--c3">Bingung cara menggunakan media sosial untuk promosi produk.</div>
+                <div class="affinity__note affinity__note--c4">Bosan dengan stok barang dan checkout yang tidak responsif.</div>
+                <div class="affinity__note affinity__note--c5">Sistem sering error saat melakukan pembayaran.</div>
+              </div>
+
+              <!-- Problem Row 3 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--c2">Data penjualan di bawah sering tidak terbaca.</div>
+                <div class="affinity__note affinity__note--c3">Sulit menghitung pengeluaran di luar lingkungan online.</div>
+                <div class="affinity__note affinity__note--c5">Terganggu iklan dan pop-up promosi saat live streaming.</div>
+                <div class="affinity__note affinity__note--c6">Antrian barang saat kirim dengan tampilan pembayaran saat checkout tidak jelas.</div>
+              </div>
+
+              <!-- Problem Row 4 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--c1">Barang sering habis tiba-tiba karena tidak ada peringatan stok minimum.</div>
+                <div class="affinity__note affinity__note--c3">Ketakutan jasa kurir terlalu mahal untuk mengirim produk ke kota.</div>
+                <div class="affinity__note affinity__note--c4">Susah mencari barang di katalog yang sangat banyak pilihannya.</div>
+                <div class="affinity__note affinity__note--c6">Sangat butuh ulasan video asli dari pembeli toko sebagai bukti kepercayaan.</div>
+              </div>
+
+              <!-- Problem Row 5 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--c1">Sulit memantau stok di setiap supplier secara real-time.</div>
+                <div class="affinity__note affinity__note--c3">Belum paham cara masuk ke platform e-commerce sebagai penjual.</div>
+                <div class="affinity__note affinity__note--empty"></div>
+                <div class="affinity__note affinity__note--empty"></div>
+              </div>
+
+              <!-- Problem Row 6 -->
+              <div class="affinity__row affinity__row--4col">
+                <div class="affinity__note affinity__note--empty"></div>
+                <div class="affinity__note affinity__note--c3">Khawatir reputasi hancur karena ulasan negatif fiktif dari kompetitor.</div>
+                <div class="affinity__note affinity__note--empty"></div>
+                <div class="affinity__note affinity__note--empty"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="affinity__legend">
+          <span class="affinity__legend-title">Keterangan:</span>
+          <span class="affinity__legend-pill" style="background:#4CAF50;">Susenzo Yeri Wozeny</span>
+          <span class="affinity__legend-pill" style="background:#2196F3;">Pris Kliften Ramadhani</span>
+          <span class="affinity__legend-pill" style="background:#E91E63;">Fikri Ramadhan</span>
+          <span class="affinity__legend-pill" style="background:#FF69B4;">Zarkeya Soaldi A.A.</span>
+          <span class="affinity__legend-pill" style="background:#42A5F5;">Widya Dny Yuanika Rahayu</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== HOW MIGHT WE & IDEATION ============================== -->
+    <section class="hmw" id="hmw">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">HMW 6</p>
+          <h2 class="section-title">How Might We & <span class="accent-purple">Ideation</span></h2>
+        </header>
+
+        <!-- Vision Statement -->
+        <div class="hmw__vision">
+          <p class="hmw__vision-label">Vision Statement</p>
+          <p class="hmw__vision-text">
+            Bagaimana kita bisa memfasilitasi pelaku UMKM dan penyedia jasa agar dapat mempromosikan produk/layanan mereka secara luas, masuk ke ekosistem e-commerce dengan mudah, dan mengelola reputasi toko mereka tanpa terhambat oleh keterbatasan kemampuan teknis digital?
+          </p>
+        </div>
+
+        <!-- Ideation Cards -->
+        <div class="hmw__grid">
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Generator Konten Promosi (Auto-Poster)</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Sebar Sekali Klik (One-Click Broadcast)</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Pemandu Pendaftaran Interaktif</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Pengisian Katalog Cerdas</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Ulasan Berbasis Parameter Terstruktur</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Hak Jawab & Sematkan Klarifikasi (Pin Reply)</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+
+          <article class="hmw__card">
+            <h3 class="hmw__card-title">Dasbor Wawasan Minimalis (Mini Insights)</h3>
+            <p class="hmw__card-author">Shammad</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PRIORITIZATION IDEA ============================== -->
+    <section class="priority" id="priority">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Prioritization</p>
+          <h2 class="section-title">Prioritization <span class="accent">Idea</span></h2>
+        </header>
+
+        <div class="matrix">
+          <!-- Y Axis Label -->
+          <div class="matrix__axis-y">
+            <span class="matrix__axis-label">Impact</span>
+          </div>
+
+          <!-- Matrix Grid -->
+          <div class="matrix__body">
+            <!-- High / Low labels -->
+            <span class="matrix__mark matrix__mark--y-high">High</span>
+            <span class="matrix__mark matrix__mark--x-high">High</span>
+
+            <div class="matrix__grid">
+              <!-- Top-Left: High Impact, Low Effort (Quick Wins) -->
+              <div class="matrix__quadrant">
+                <div class="matrix__cards">
+                  <div class="matrix__card">Pemandu Pendaftaran Interaktif (Guided Setup Wizard)</div>
+                  <div class="matrix__card">Sebar Sekali Klik (One-Click Broadcast)</div>
+                </div>
+              </div>
+
+              <!-- Top-Right: High Impact, High Effort (Major Projects) -->
+              <div class="matrix__quadrant">
+                <div class="matrix__cards">
+                  <div class="matrix__card">Generator Konten Promosi (Auto-Poster)</div>
+                  <div class="matrix__card">Dasbor Wawasan Minimalis (Mini Insights)</div>
+                </div>
+              </div>
+
+              <!-- Bottom-Left: Low Impact, Low Effort (Fill-ins) -->
+              <div class="matrix__quadrant">
+                <div class="matrix__cards matrix__cards--bottom">
+                  <div class="matrix__card">Hak Jawab &amp; Sematkan Klarifikasi (Pin Reply)</div>
+                </div>
+              </div>
+
+              <!-- Bottom-Right: Low Impact, High Effort (Thankless Tasks) -->
+              <div class="matrix__quadrant">
+                <div class="matrix__cards matrix__cards--bottom">
+                  <div class="matrix__card">Pengisian Katalog Cerdas (AI Image Recognition)</div>
+                  <div class="matrix__card">Ulasan Berbasis Parameter Terstruktur</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- X Axis Label -->
+            <div class="matrix__axis-x">
+              <span class="matrix__axis-label">Effort</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== DESIGN SYSTEM ============================== -->
+    <section class="design" id="design">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Design Process</p>
+          <h2 class="section-title">UI Kit & <span class="accent">Design System</span></h2>
+          <p class="section-desc">Analisis tipografi dan skema warna yang digunakan dalam pengembangan MarketSpace.</p>
+        </header>
+
+        <div class="design__grid">
+          <!-- Typography -->
+          <div class="design__block design__block--typo">
+            <h3 class="design__block-title">Typography</h3>
+
+            <div class="typo-showcase">
+              <div class="typo-family">
+                <span class="typo-label">Heading Font</span>
+                <p class="typo-name typo-name--heading">Lora</p>
+                <div class="typo-samples">
+                  <span class="typo-sample typo-sample--h1">Heading 1</span>
+                  <span class="typo-sample typo-sample--h2">Heading 2</span>
+                  <span class="typo-sample typo-sample--h3">Heading 3</span>
+                </div>
+                <p class="typo-meta">Serif Â· Bold 700 Â· Regular 400</p>
+              </div>
+
+              <div class="typo-divider"></div>
+
+              <div class="typo-family">
+                <span class="typo-label">Body Font</span>
+                <p class="typo-name typo-name--body">Nunito Sans</p>
+                <div class="typo-samples">
+                  <span class="typo-sample typo-sample--body">Body Text Regular</span>
+                  <span class="typo-sample typo-sample--body-light">Body Text Light</span>
+                  <span class="typo-sample typo-sample--caption">Caption Â· Small Text</span>
+                </div>
+                <p class="typo-meta">Sans-serif Â· 300 400 600 700</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Color Palette -->
+          <div class="design__block design__block--color">
+            <h3 class="design__block-title">Color Palette</h3>
+
+            <div class="color-grid">
+              <div class="color-group">
+                <span class="color-group-label">Brand Color</span>
+                <div class="color-row">
+                  <div class="color-swatch">
+                    <div class="color-swatch__preview" style="background:#54A838;"></div>
+                    <span class="color-swatch__hex">#54A838</span>
+                  </div>
+                  <div class="color-swatch">
+                    <div class="color-swatch__preview" style="background:#1E1E1E;"></div>
+                    <span class="color-swatch__hex">#1E1E1E</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="color-group">
+                <span class="color-group-label">Secondary Color</span>
+                <div class="color-row">
+                  <div class="color-swatch">
+                    <div class="color-swatch__preview" style="background:#7B2D8E;"></div>
+                    <span class="color-swatch__hex">#7B2D8E</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="color-group">
+                <span class="color-group-label">Neutral Color</span>
+                <div class="color-row">
+                  <div class="color-swatch color-swatch--sm">
+                    <div class="color-swatch__preview" style="background:#333333;"></div>
+                    <span class="color-swatch__hex">#333</span>
+                  </div>
+                  <div class="color-swatch color-swatch--sm">
+                    <div class="color-swatch__preview" style="background:#666666;"></div>
+                    <span class="color-swatch__hex">#666</span>
+                  </div>
+                  <div class="color-swatch color-swatch--sm">
+                    <div class="color-swatch__preview" style="background:#D9D9D9;"></div>
+                    <span class="color-swatch__hex">#D9D9D9</span>
+                  </div>
+                  <div class="color-swatch color-swatch--sm">
+                    <div class="color-swatch__preview" style="background:#F0F0F0; border:1px solid #D9D9D9;"></div>
+                    <span class="color-swatch__hex">#F0F0F0</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="color-group">
+                <span class="color-group-label">Accent Color</span>
+                <div class="color-row">
+                  <div class="color-swatch">
+                    <div class="color-swatch__preview" style="background:#E8732A;"></div>
+                    <span class="color-swatch__hex">#E8732A</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PROTOTYPE (FIGMA EMBED) ============================== -->
+    <section class="prototype" id="prototype">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Prototype</p>
+          <h2 class="section-title">High-Fidelity <span class="accent">Prototype</span></h2>
+          <p class="section-desc">Prototype interaktif langsung dari Figma. Klik dan navigasi layaknya aplikasi nyata.</p>
+        </header>
+
+        <figure class="prototype__frame">
+          <div class="prototype__bar">
+            <span class="prototype__dot"></span>
+            <span class="prototype__dot"></span>
+            <span class="prototype__dot"></span>
+            <span class="prototype__url">figma.com/proto/MarketSpace</span>
+          </div>
+          <div class="prototype__wrapper">
+            <!-- Ganti src dengan link Figma prototype Anda -->
+            <!--
+            <iframe
+              src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_URL"
+              title="MarketSpace Figma Prototype"
+              allowfullscreen
+            ></iframe>
+            -->
+            <!-- Placeholder saat belum ada iframe -->
+            <div class="prototype__placeholder">
+              <p class="prototype__placeholder-icon">â–¶</p>
+              <p class="prototype__placeholder-title">Figma Prototype</p>
+              <p class="prototype__placeholder-hint">Ganti atribut <code>src</code> pada iframe<br/>dengan link share Figma Anda.</p>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <a href="#" class="footer__logo">
+          <span class="nav__logo-mark">M</span>
+          MarketSpace
+        </a>
+        <p class="footer__desc">Studi kasus desain UI/UX untuk aplikasi e-commerce modern. Dibuat sebagai proyek akhir semester.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4 class="footer__heading">Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#design">Design System</a></li>
+          <li><a href="#prototype">Prototype</a></li>
+        </ul>
+      </div>
+
+      <address class="footer__contact">
+        <h4 class="footer__heading">Contact</h4>
+        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>GitHub: <a href="#">github.com/username</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/username</a></p>
+      </address>
+    </div>
+
+    <div class="footer__bottom container">
+      <p>&copy; 2025 MarketSpace. Dibuat untuk UAS Web Development.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

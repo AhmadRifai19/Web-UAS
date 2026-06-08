@@ -1,0 +1,45 @@
+<section class="about" id="features">
+      <div class="about__inner container">
+
+        <!-- Left: Explanation -->
+        <div class="about__text">
+          <h2 class="about__title">Kenapa <span class="accent">MarketSpace</span>?</h2>
+          <p class="about__paragraph">
+            Proyek ini berfokus pada identifikasi dan penyelesaian <strong>pain points</strong> kritis yang dihadapi pelaku UMKM dan penyedia jasa di Indonesia, terutama saat mencoba memasarkan produk mereka ke ekosistem e-commerce.
+          </p>
+          <p class="about__paragraph about__paragraph--muted">
+            Tujuannya adalah merancang pengalaman yang lebih andal, efisien, dan ramah pengguna untuk mengatasi masalah seperti manajemen stok manual, literasi digital rendah, tampilan yang membingungkan, dan transaksi yang tidak stabil.
+          </p>
+        </div>
+
+        <!-- Right: Design Goals Card -->
+        <div class="about__goals">
+          <h3 class="about__goals-title">Design Goals</h3>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--green">âš¡</div>
+            <div>
+              <h4 class="about__goal-name">Simplicity First</h4>
+              <p class="about__goal-desc">Memangkas kompleksitas operasional hingga 50% dengan mengurangi langkah proses (clicks).</p>
+            </div>
+          </div>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--blue">ðŸŽ¯</div>
+            <div>
+              <h4 class="about__goal-name">Inclusive Design</h4>
+              <p class="about__goal-desc">UI yang elegan, ramah untuk pelaku UMKM dan pengguna non-tech savvy.</p>
+            </div>
+          </div>
+
+          <div class="about__goal">
+            <div class="about__goal-icon about__goal-icon--brand">ðŸŒ¿</div>
+            <div>
+              <h4 class="about__goal-name">Fresh Identity</h4>
+              <p class="about__goal-desc">Visual hijau yang menyegarkan, berbeda dari kompetitor yang sudah ada.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
