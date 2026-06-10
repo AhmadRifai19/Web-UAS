@@ -1,0 +1,16 @@
+Section hero: opens=9, closes=9, diff=0
+Section about: opens=12, closes=12, diff=0
+Section persona: opens=207, closes=207, diff=0
+Section define: opens=80, closes=80, diff=0
+Section hmw: opens=3, closes=3, diff=0
+Section design: opens=35, closes=35, diff=0
+Section prototype: opens=4, closes=4, diff=0
+
+Journey tables found: 0
+Interview tables found: 10
+Panels: 5
+Tabs: 4
+Non-ASCII chars: 0
+SVG icons: 13
+
+Main section: opens=420, closes=420, diff=0

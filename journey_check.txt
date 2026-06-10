@@ -1,0 +1,9 @@
+journey__table occurrences: 0
+journey__table-wrapper: 0
+persona__journey-row: 5
+persona__journey-table-wrapper: 2
+Panel 0: journey_row=True, journey_table=False, any_journey=True
+Panel 1: journey_row=True, journey_table=False, any_journey=True
+Panel 2: journey_row=True, journey_table=False, any_journey=True
+Panel 3: journey_row=True, journey_table=False, any_journey=True
+Panel 4: journey_row=True, journey_table=False, any_journey=True

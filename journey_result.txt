@@ -1,0 +1,7 @@
+persona__journey-row: 5
+persona__journey-table-wrapper: 2
+P0 (Fikri Ramadhan): diff=0, journey_row=True, journey_wrap=True, interview=True
+P1 (Susanto Hari Wibowo): diff=0, journey_row=True, journey_wrap=True, interview=True
+P2 (Haris Wahyu Ramadhani): diff=0, journey_row=True, journey_wrap=False, interview=True
+P3 (Widya Dny Yuanika R.): diff=0, journey_row=True, journey_wrap=False, interview=True
+P4 (Zaskiya Soaldi A.A.): diff=0, journey_row=True, journey_wrap=False, interview=True

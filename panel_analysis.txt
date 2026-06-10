@@ -1,0 +1,81 @@
+
+Panel 0 (Fikri Ramadhan): final_depth=0
+  Last 10 div lines:
+    L209 D 6->D 7  [interview__sticky--red]
+    L212 D 7->D 6 </div>
+    L213 D 6->D 7  [interview__sticky--yellow]
+    L216 D 7->D 6 </div>
+    L217 D 6->D 5 </div>
+    L218 D 5->D 4 </div>
+    L219 D 4->D 3 </div>
+    L220 D 3->D 2 </div>
+    L224 D 2->D 1 </div>
+    L225 D 1->D 0 </div>
+
+Panel 1 (Susanto Hari Wibowo): final_depth=-1
+  Lines where depth < 0:
+    Line 220: D0->D-1: </div>
+    Line 222: D-1->D-1: <!-- â•â•â• Panel 3: Haris Wahyu Ramadhani â•â•â• -->
+  Last 10 div lines:
+    L206 D 7->D 8  [interview__sticky--yellow]
+    L209 D 8->D 7 </div>
+    L210 D 7->D 6 </div>
+    L211 D 6->D 5 </div>
+    L212 D 5->D 4 </div>
+    L213 D 4->D 3 </div>
+    L216 D 3->D 2 </div>
+    L217 D 2->D 1 </div>
+    L219 D 1->D 0 </div>
+    L220 D 0->D-1 </div>
+
+Panel 2 (Haris Wahyu Ramadhani): final_depth=-2
+  Lines where depth < 0:
+    Line 173: D0->D-1: </div>
+    Line 174: D-1->D-2: </div>
+    Line 176: D-2->D-2: <!-- â•â•â• Panel 4: Widya Dny Yuanika Rahayu â•â•â• -
+  Last 10 div lines:
+    L160 D 6->D 5 </div>
+    L161 D 5->D 6  [interview__sticky--yellow]
+    L164 D 6->D 5 </div>
+    L165 D 5->D 4 </div>
+    L166 D 4->D 3 </div>
+    L167 D 3->D 2 </div>
+    L168 D 2->D 1 </div>
+    L171 D 1->D 0 </div>
+    L173 D 0->D-1 </div>
+    L174 D-1->D-2 </div>
+
+Panel 3 (Widya Dny Yuanika R.): final_depth=-2
+  Lines where depth < 0:
+    Line 177: D0->D-1: </div>
+    Line 178: D-1->D-2: </div>
+    Line 180: D-2->D-2: <!-- â•â•â• Panel 5: Zaskiya Soaldi A.A. â•â•â• -->
+  Last 10 div lines:
+    L164 D 6->D 5 </div>
+    L165 D 5->D 6  [interview__sticky--yellow]
+    L168 D 6->D 5 </div>
+    L169 D 5->D 4 </div>
+    L170 D 4->D 3 </div>
+    L171 D 3->D 2 </div>
+    L172 D 2->D 1 </div>
+    L175 D 1->D 0 </div>
+    L177 D 0->D-1 </div>
+    L178 D-1->D-2 </div>
+
+Panel 4 (Zaskiya Soaldi A.A.): final_depth=-3
+  Lines where depth < 0:
+    Line 176: D0->D-1: </div>
+    Line 177: D-1->D-2: </div>
+    Line 179: D-2->D-3: </div>
+    Line 180: D-3->D-3: </section>
+  Last 10 div lines:
+    L164 D 5->D 6  [interview__sticky--yellow]
+    L167 D 6->D 5 </div>
+    L168 D 5->D 4 </div>
+    L169 D 4->D 3 </div>
+    L170 D 3->D 2 </div>
+    L171 D 2->D 1 </div>
+    L174 D 1->D 0 </div>
+    L176 D 0->D-1 </div>
+    L177 D-1->D-2 </div>
+    L179 D-2->D-3 </div>

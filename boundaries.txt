@@ -1,0 +1,55 @@
+
+--- Before Panel 1 ---
+    D6->D7  class=interview__sticky--yellow
+    D7->D6 </div>
+    D6->D5 </div>
+    D5->D4 </div>
+    D4->D3 </div>
+    D3->D2 </div>
+    D2->D1 </div>
+    D1->D0 </div>
+  Final depth: 0
+
+--- Before Panel 2 ---
+    D7->D6 </div>
+    D6->D5 </div>
+    D5->D4 </div>
+    D4->D3 </div>
+    D3->D2 </div>
+    D2->D1 </div>
+    D1->D0 </div>
+    D0->D-1 </div>
+  Final depth: -1
+
+--- Before Panel 3 ---
+    D6->D5 </div>
+    D5->D4 </div>
+    D4->D3 </div>
+    D3->D2 </div>
+    D2->D1 </div>
+    D1->D0 </div>
+    D0->D-1 </div>
+    D-1->D-2 </div>
+  Final depth: -2
+
+--- Before Panel 4 ---
+    D6->D5 </div>
+    D5->D4 </div>
+    D4->D3 </div>
+    D3->D2 </div>
+    D2->D1 </div>
+    D1->D0 </div>
+    D0->D-1 </div>
+    D-1->D-2 </div>
+  Final depth: -2
+
+--- Panel 4 to section end ---
+    D5->D4 </div>
+    D4->D3 </div>
+    D3->D2 </div>
+    D2->D1 </div>
+    D1->D0 </div>
+    D0->D-1 </div>
+    D-1->D-2 </div>
+    D-2->D-3 </div>
+  Final depth: -3

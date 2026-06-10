@@ -1,0 +1,121 @@
+D0->D1 <div class="persona__panel" data-panel="2"> [persona__panel]
+D1->D2 <div class="persona__grid"> [persona__grid]
+D2->D3 <div class="persona__top"> [persona__top]
+D3->D4 <div class="persona__profile-col"> [persona__profile-col]
+D4->D4 <div class="persona__photo-wrap">ðŸ‘¨â€ðŸŽ¨</div> [persona__photo-wrap]
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Pria mahasiswa di ITS</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Berencana memulai bisnis freelance kreatif</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Memiliki keterampilan teknis dan pengalaman e-comme [persona__sticky]
+D5->D5 <div class="persona__sticky">Memiliki keahlian desain produk di bidang kreatif</ [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__mid"> [persona__mid]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Halaman khusus display portofolio agar produk lebih [persona__sticky]
+D5->D5 <div class="persona__sticky">Fitur promosi di luar marketplace untuk memaksimalk [persona__sticky]
+D5->D5 <div class="persona__sticky">Filter pencarian berdasarkan kebutuhan spesifik pel [persona__sticky]
+D5->D5 <div class="persona__sticky">Integrasi/import order untuk memudahkan pengelolaan [persona__sticky]
+D5->D5 <div class="persona__sticky">Peta lokasi yang terhubung dengan order dan pengiri [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Proses penjualan berbelit dan tidak efisien</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Tidak ada tempat untuk upload portfolio/contoh kerj [persona__sticky]
+D5->D5 <div class="persona__sticky">Pembayaran manual yang tidak efisien</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Kurang tahu platform online untuk menjual jasa prof [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__bottom"> [persona__bottom]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Penyederhanaan dan efisiensi proses pemasaran produ [persona__sticky]
+D5->D5 <div class="persona__sticky">UI/UX halaman katalog/portfolio yang clean di platf [persona__sticky]
+D5->D5 <div class="persona__sticky">Filter/kategori untuk membedakan jual produk dan ju [persona__sticky]
+D5->D5 <div class="persona__sticky">Pembuatan produk collection dan portfolio digital</ [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__journey-row"> [persona__journey-row]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D3 </div>
+D3->D2 </div>
+D2->D1 </div>
+D1->D2 <div class="persona__interview-row"> [persona__interview-row]
+D2->D3 <div class="persona__section-box"> [persona__section-box]
+D3->D4 <div class="interview__qa-list"> [interview__qa-list]
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D1 </div>
+D1->D0 </div>
+D0->D-1 </div>
+D-1->D-2 </div>
+Panel 2: opens=68, closes=70, final_depth=-2

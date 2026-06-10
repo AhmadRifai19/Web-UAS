@@ -1,0 +1,125 @@
+D0->D1 <div class="persona__panel" data-panel="4"> [persona__panel]
+D1->D2 <div class="persona__grid"> [persona__grid]
+D2->D3 <div class="persona__top"> [persona__top]
+D3->D4 <div class="persona__profile-col"> [persona__profile-col]
+D4->D4 <div class="persona__photo-wrap">ðŸ‘©â€ðŸ’»</div> [persona__photo-wrap]
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Menggunakan berbagai platform belanja</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Pengguna aktif Shopee, Tokopedia, Grab</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Berbelanja rutin setiap minggu</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Menyukai informasi dan penawaran</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Tertarik pada makanan dan kebutuhan harian</div> [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__mid"> [persona__mid]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Tampilan belanja bersih tanpa terlalu banyak iklan< [persona__sticky]
+D5->D5 <div class="persona__sticky">Fitur membandingkan harga tanpa keluar dari tampila [persona__sticky]
+D5->D5 <div class="persona__sticky">Penawaran yang tidak mengganggu pengalaman belanja< [persona__sticky]
+D5->D5 <div class="persona__sticky">Eksplorasi produk dengan detail lengkap dalam satu  [persona__sticky]
+D5->D5 <div class="persona__sticky">Proses checkout cepat dan simpel tanpa banyak langk [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Terlalu banyak iklan yang mengurangi kenyamanan bel [persona__sticky]
+D5->D5 <div class="persona__sticky">Sulit berbelanja karena penuh notifikasi dan pop-up [persona__sticky]
+D5->D5 <div class="persona__sticky">Aplikasi berat/lambat saat proses transaksi</div> [persona__sticky]
+D5->D5 <div class="persona__sticky">Terlalu banyak langkah untuk memilih yang paling mu [persona__sticky]
+D5->D5 <div class="persona__sticky">Fitur terlalu banyak membuat tampilan tidak fokus</ [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__bottom"> [persona__bottom]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D5 <div class="persona__stickies"> [persona__stickies]
+D5->D5 <div class="persona__sticky">Menyederhanakan tampilan utama tanpa iklan menggang [persona__sticky]
+D5->D5 <div class="persona__sticky">Dashboard pembeli sederhana dan mudah digunakan</di [persona__sticky]
+D5->D5 <div class="persona__sticky">Fitur perbandingan harga langsung dari halaman penc [persona__sticky]
+D5->D5 <div class="persona__sticky">Proses checkout "Quick Buy" tanpa banyak konfirmasi [persona__sticky]
+D5->D5 <div class="persona__sticky">Informasi toko bersih dan terorganisir tanpa popup< [persona__sticky]
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D3 <div class="persona__journey-row"> [persona__journey-row]
+D3->D4 <div class="persona__section-box"> [persona__section-box]
+D4->D3 </div>
+D3->D2 </div>
+D2->D1 </div>
+D1->D2 <div class="persona__interview-row"> [persona__interview-row]
+D2->D3 <div class="persona__section-box"> [persona__section-box]
+D3->D4 <div class="interview__qa-list"> [interview__qa-list]
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D5 <div class="interview__qa-item"> [interview__qa-item]
+D5->D6 <div class="interview__sticky--red"> [interview__sticky--red]
+D6->D5 </div>
+D5->D6 <div class="interview__sticky--yellow"> [interview__sticky--yellow]
+D6->D5 </div>
+D5->D4 </div>
+D4->D3 </div>
+D3->D2 </div>
+D2->D1 </div>
+D1->D0 </div>
+D0->D-1 </div>
+D-1->D-2 </div>
+D-2->D-3 </div>
+Panel 4: opens=71, closes=74, final_depth=-3

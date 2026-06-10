@@ -1,0 +1,25 @@
+Panel 0 (Fikri Ramadhan): before fix opens=71 closes=71 extra=0
+  After fix: opens=42 closes=42 diff=0
+Panel 1 (Susanto Hari Wibowo): before fix opens=68 closes=69 extra=1
+  Removed trailing </div> at pos 12545
+  After fix: opens=39 closes=39 diff=0
+Panel 2 (Haris Wahyu Ramadhani): before fix opens=68 closes=70 extra=2
+  Removed trailing </div> at pos 9081
+  Removed trailing </div> at pos 9064
+  After fix: opens=39 closes=39 diff=0
+Panel 3 (Widya Dny Yuanika R.): before fix opens=72 closes=74 extra=2
+  Removed trailing </div> at pos 9152
+  Removed trailing </div> at pos 9135
+  After fix: opens=43 closes=43 diff=0
+Panel 4 (Zaskiya Soaldi A.A.): before fix opens=71 closes=74 extra=3
+  Removed trailing </div> at pos 9232
+  Removed trailing </div> at pos 9216
+  Removed trailing </div> at pos 9199
+  After fix: opens=42 closes=42 diff=0
+VERIFY P0 (Fikri Ramadhan): diff=0, table=True, rows=15
+VERIFY P1 (Susanto Hari Wibowo): diff=0, table=True, rows=15
+VERIFY P2 (Haris Wahyu Ramadhani): diff=0, table=True, rows=9
+VERIFY P3 (Widya Dny Yuanika R.): diff=0, table=True, rows=10
+VERIFY P4 (Zaskiya Soaldi A.A.): diff=0, table=True, rows=5
+Persona: diff=-206
+Lines: 1515
