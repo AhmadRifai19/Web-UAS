@@ -1415,32 +1415,146 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
   border-radius: 3px;
 }
 
+/* Main layout: vertical stack */
 .affinity__board {
-  min-width: 960px;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  margin-right: 100px; /* space for badges */
+  gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Box wrapper: box + side badge on right */
+.affinity__box-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.affinity__box-wrapper .affinity__box {
+  flex: 1;
+  min-width: 0;
+}
+
+.affinity__box-wrapper .affinity__headers {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Side badge on the right */
+.affinity__side-badge {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 130px;
+  justify-content: flex-start;
+}
+
+/* Side badges container (vertical stack) */
+.affinity__side-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.affinity__side-badge-line {
+  display: block;
+  width: 24px;
+  height: 2px;
+}
+
+.affinity__side-badge-label {
+  font-size: .72rem;
+  font-weight: 700;
+  color: var(--white);
+  padding: .3rem .7rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.affinity__side-badge--main .affinity__side-badge-line {
+  background: #2E7D32;
+}
+.affinity__side-badge--main .affinity__side-badge-label {
+  background: #2E7D32;
+}
+
+.affinity__side-badge--insight .affinity__side-badge-line {
+  background: #4CAF50;
+}
+.affinity__side-badge--insight .affinity__side-badge-label {
+  background: #4CAF50;
+}
+
+.affinity__side-badge--problem .affinity__side-badge-line {
+  background: #3F51B5;
+}
+.affinity__side-badge--problem .affinity__side-badge-label {
+  background: #3F51B5;
+}
+
+/* Main Problem Box (Left Column) */
+.affinity__main-problem {
+  background: #2E7D32;
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.affinity__main-problem-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.affinity__main-problem-desc {
+  font-size: .85rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Right Content Area */
+.affinity__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* Main Problem Headers (5-col) */
 .affinity__headers {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: .6rem;
+  gap: .5rem;
+}
+
+.affinity__headers--4col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.affinity__headers--5col {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .affinity__header {
   background: #4CAF50;
   color: var(--white);
   font-family: var(--font-heading);
-  font-size: .8rem;
+  font-size: .68rem;
   font-weight: 700;
   text-align: center;
-  padding: .7rem .8rem;
+  padding: .5rem .4rem;
   border-radius: 8px;
-  text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: .02em;
+  line-height: 1.3;
 }
 
 .affinity__header--main {
@@ -1451,11 +1565,11 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
 /* Wrapper Boxes */
 .affinity__box {
   position: relative;
-  padding: 1.2rem;
+  padding: .8rem;
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
-  gap: .6rem;
+  gap: .4rem;
   overflow: visible;
 }
 
@@ -1467,28 +1581,23 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
   border: 2.5px dashed #3F51B5;
 }
 
-/* Box Badge â€” horizontal tab on right edge */
+/* Box Badge — top-left inside the box */
 .affinity__box-badge {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%) translateX(100%);
-  font-size: .78rem;
+  position: relative;
+  font-size: .65rem;
   font-weight: 700;
-  padding: .5rem 1.2rem;
-  border-radius: 0 6px 6px 0;
+  padding: .2rem .6rem;
+  border-radius: 4px;
   white-space: nowrap;
   color: var(--white);
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: .6rem;
+  width: fit-content;
 }
 
 .affinity__box-badge::before {
   content: '';
-  display: block;
-  width: 20px;
-  height: 2px;
+  display: none;
 }
 
 .affinity__box-badge--insight {
@@ -1511,17 +1620,31 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
 .affinity__row--4col {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: .6rem;
+  gap: .4rem;
+}
+
+/* 5-col Row Grid */
+.affinity__row--5col {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: .5rem;
+}
+
+/* 6-col Row Grid (kept for compatibility) */
+.affinity__row--6col {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: .5rem;
 }
 
 /* Sticky Note Cards */
 .affinity__note {
   border-radius: 6px;
-  padding: .75rem .8rem;
-  font-size: .72rem;
-  line-height: 1.5;
+  padding: .5rem .55rem;
+  font-size: .65rem;
+  line-height: 1.4;
   color: var(--black);
-  min-height: 80px;
+  min-height: 50px;
   transition: transform var(--speed) var(--ease),
               box-shadow var(--speed) var(--ease);
 }
@@ -1552,13 +1675,13 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
   box-shadow: none;
 }
 
-/* Color per category */
-.affinity__note--c1 { background: #81D88F; }
-.affinity__note--c2 { background: #B8F0CB; }
-.affinity__note--c3 { background: #81D88F; }
-.affinity__note--c4 { background: #F5A3CF; }
-.affinity__note--c5 { background: #FFB8B8; }
-.affinity__note--c6 { background: #FFAB91; }
+/* Color per contributor */
+.affinity__note--c1 { background: #A0C4FF; }  /* blue - Susanto */
+.affinity__note--c2 { background: #98D8C8; }  /* green - Fikri (unused) */
+.affinity__note--c3 { background: #98D8C8; }  /* green - Fikri */
+.affinity__note--c4 { background: #E066FF; }  /* magenta - Haris */
+.affinity__note--c5 { background: #E0E0E0; }  /* gray - Widya */
+.affinity__note--c6 { background: #FFB799; }  /* orange - Zaskiya */
 
 /* Legend */
 .affinity__legend {

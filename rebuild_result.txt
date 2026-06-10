@@ -22,4 +22,4 @@ VERIFY P2 (Haris Wahyu Ramadhani): diff=0, table=True, rows=9
 VERIFY P3 (Widya Dny Yuanika R.): diff=0, table=True, rows=10
 VERIFY P4 (Zaskiya Soaldi A.A.): diff=0, table=True, rows=5
 Persona: diff=-206
-Lines: 1515
+Lines: 1268
