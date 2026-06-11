@@ -19,16 +19,18 @@
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav__logo">
-        <span class="nav__logo-mark">M</span>
+        <img src="logo.png" alt="MarketSpace Logo" class="nav__logo-img" />
         MarketSpace
       </a>
 
       <ul class="nav__list" id="nav-menu">
         <li><a href="#hero" class="nav__link active">Home</a></li>
-        <li><a href="#features" class="nav__link">Features</a></li>
-        <li><a href="#design" class="nav__link">Design</a></li>
+        <li><a href="#persona" class="nav__link">Empathize</a></li>
+        <li><a href="#hmw" class="nav__link">Define</a></li>
+        <li><a href="#ideate" class="nav__link">Ideate</a></li>
         <li><a href="#prototype" class="nav__link">Prototype</a></li>
-        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+        <li><a href="#test" class="nav__link">Test</a></li>
+        <li><a href="#creator" class="nav__link nav__link--cta">Profile</a></li>
       </ul>
 
       <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
@@ -59,9 +61,9 @@
         <div class="hero__mockup">
           <div class="hero__phone">
             <div class="hero__phone-notch"></div>
-            <div class="hero__phone-screen">
-              <p class="hero__phone-label">App Mockup</p>
-              <span class="hero__phone-hint">Letakkan gambar<br/>mockup di sini</span>
+            <div class="hero__phone-screen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; background: #e5e5e5; display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 34px;">
+              <img src="logo.png" alt="MarketSpace App Mockup" style="width: 180px; height: auto; object-fit: contain; margin-bottom: 24px; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));" />
+              <h2 style="font-family: Georgia, serif; color: #1a1a1a; margin: 0; font-size: 1.8rem; font-weight: bold; letter-spacing: -0.5px;">MarketSpace</h2>
             </div>
           </div>
         </div>
@@ -1119,7 +1121,7 @@
     <section class="hmw" id="hmw">
       <div class="container">
         <header class="section-header">
-          <p class="section-label">HMW 6</p>
+          <p class="section-label">Define</p>
           <h2 class="section-title">How Might We & <span class="accent-purple">Ideation</span></h2>
         </header>
 
@@ -1175,7 +1177,7 @@
     <section class="priority" id="priority">
       <div class="container">
         <header class="section-header">
-          <p class="section-label">Prioritization</p>
+          <p class="section-label">Define</p>
           <h2 class="section-title">Prioritization <span class="accent">Idea</span></h2>
         </header>
 
@@ -1233,6 +1235,86 @@
       </div>
     </section>
 
+    <!-- ============================== IDEATE ============================== -->
+    <section class="ideate" id="ideate">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Ideate</p>
+          <h2 class="section-title">Low-Fidelity &amp; <span class="accent-purple">Wireframe</span></h2>
+          <p class="section-desc">Eksplorasi ide desain melalui sketsa low-fidelity dan wireframe untuk memvisualisasikan solusi.</p>
+        </header>
+
+        <!-- Crazy 8's & Brainstorming -->
+        <div class="ideate__subsection">
+          <h3 class="ideate__subtitle">🧠 Crazy 8's & Brainstorming</h3>
+          <figure class="prototype__frame">
+            <div class="prototype__bar">
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__url">figma.com/design/Crazy8s-Brainstorming</span>
+            </div>
+            <div class="prototype__wrapper">
+              <iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                width="100%"
+                height="500"
+                src="https://embed.figma.com/design/OSROkjvzrWHB8S8hJInWen/Crazy-8-s---Brainstorming?node-id=0-1&embed-host=share"
+                title="Crazy 8's & Brainstorming"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </figure>
+        </div>
+
+        <!-- Low Fidelity -->
+        <div class="ideate__subsection">
+          <h3 class="ideate__subtitle">✏️ Low Fidelity</h3>
+          <figure class="prototype__frame">
+            <div class="prototype__bar">
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__url">figma.com/design/Low-Fidelity</span>
+            </div>
+            <div class="prototype__wrapper">
+              <iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                width="100%"
+                height="500"
+                src="https://embed.figma.com/design/lIiIC7yDokAVsZh5JHUtGG/kelompok-4?node-id=0-1&embed-host=share"
+                title="Low Fidelity Wireframe"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </figure>
+        </div>
+
+        <!-- Information Architecture -->
+        <div class="ideate__subsection">
+          <h3 class="ideate__subtitle">🗂️ Information Architecture</h3>
+          <figure class="prototype__frame">
+            <div class="prototype__bar">
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__dot"></span>
+              <span class="prototype__url">figma.com/design/Information-Architecture</span>
+            </div>
+            <div class="prototype__wrapper">
+                <iframe
+                  style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                  width="100%"
+                  height="500"
+                  src="https://embed.figma.com/design/HANptLPg8e50JYfFEE8MYd/Information-Architecture?node-id=0-1&embed-host=share"
+                  title="Information Architecture"
+                  allowfullscreen
+              ></iframe>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
     <!-- ============================== DESIGN SYSTEM ============================== -->
     <section class="design" id="design">
       <div class="container">
@@ -1242,101 +1324,24 @@
           <p class="section-desc">Analisis tipografi dan skema warna yang digunakan dalam pengembangan MarketSpace.</p>
         </header>
 
-        <div class="design__grid">
-          <!-- Typography -->
-          <div class="design__block design__block--typo">
-            <h3 class="design__block-title">Typography</h3>
-
-            <div class="typo-showcase">
-              <div class="typo-family">
-                <span class="typo-label">Heading Font</span>
-                <p class="typo-name typo-name--heading">Lora</p>
-                <div class="typo-samples">
-                  <span class="typo-sample typo-sample--h1">Heading 1</span>
-                  <span class="typo-sample typo-sample--h2">Heading 2</span>
-                  <span class="typo-sample typo-sample--h3">Heading 3</span>
-                </div>
-                <p class="typo-meta">Serif Â· Bold 700 Â· Regular 400</p>
-              </div>
-
-              <div class="typo-divider"></div>
-
-              <div class="typo-family">
-                <span class="typo-label">Body Font</span>
-                <p class="typo-name typo-name--body">Nunito Sans</p>
-                <div class="typo-samples">
-                  <span class="typo-sample typo-sample--body">Body Text Regular</span>
-                  <span class="typo-sample typo-sample--body-light">Body Text Light</span>
-                  <span class="typo-sample typo-sample--caption">Caption Â· Small Text</span>
-                </div>
-                <p class="typo-meta">Sans-serif Â· 300 400 600 700</p>
-              </div>
-            </div>
+        <figure class="prototype__frame">
+          <div class="prototype__bar">
+            <span class="prototype__dot"></span>
+            <span class="prototype__dot"></span>
+            <span class="prototype__dot"></span>
+            <span class="prototype__url">figma.com/design/UI-Kit</span>
           </div>
-
-          <!-- Color Palette -->
-          <div class="design__block design__block--color">
-            <h3 class="design__block-title">Color Palette</h3>
-
-            <div class="color-grid">
-              <div class="color-group">
-                <span class="color-group-label">Brand Color</span>
-                <div class="color-row">
-                  <div class="color-swatch">
-                    <div class="color-swatch__preview" style="background:#54A838;"></div>
-                    <span class="color-swatch__hex">#54A838</span>
-                  </div>
-                  <div class="color-swatch">
-                    <div class="color-swatch__preview" style="background:#1E1E1E;"></div>
-                    <span class="color-swatch__hex">#1E1E1E</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="color-group">
-                <span class="color-group-label">Secondary Color</span>
-                <div class="color-row">
-                  <div class="color-swatch">
-                    <div class="color-swatch__preview" style="background:#7B2D8E;"></div>
-                    <span class="color-swatch__hex">#7B2D8E</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="color-group">
-                <span class="color-group-label">Neutral Color</span>
-                <div class="color-row">
-                  <div class="color-swatch color-swatch--sm">
-                    <div class="color-swatch__preview" style="background:#333333;"></div>
-                    <span class="color-swatch__hex">#333</span>
-                  </div>
-                  <div class="color-swatch color-swatch--sm">
-                    <div class="color-swatch__preview" style="background:#666666;"></div>
-                    <span class="color-swatch__hex">#666</span>
-                  </div>
-                  <div class="color-swatch color-swatch--sm">
-                    <div class="color-swatch__preview" style="background:#D9D9D9;"></div>
-                    <span class="color-swatch__hex">#D9D9D9</span>
-                  </div>
-                  <div class="color-swatch color-swatch--sm">
-                    <div class="color-swatch__preview" style="background:#F0F0F0; border:1px solid #D9D9D9;"></div>
-                    <span class="color-swatch__hex">#F0F0F0</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="color-group">
-                <span class="color-group-label">Accent Color</span>
-                <div class="color-row">
-                  <div class="color-swatch">
-                    <div class="color-swatch__preview" style="background:#E8732A;"></div>
-                    <span class="color-swatch__hex">#E8732A</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="prototype__wrapper">
+            <iframe
+              style="border: 1px solid rgba(0, 0, 0, 0.1);"
+              width="100%"
+              height="600"
+              src="https://embed.figma.com/design/BoJTV3JFHXAh9HNb3vkNPw/UI-Kit?node-id=1-495&embed-host=share"
+              title="MarketSpace UI Kit & Design System"
+              allowfullscreen
+            ></iframe>
           </div>
-        </div>
+        </figure>
       </div>
     </section>
 
@@ -1357,32 +1362,255 @@
             <span class="prototype__url">figma.com/proto/MarketSpace</span>
           </div>
           <div class="prototype__wrapper">
-            <!-- Ganti src dengan link Figma prototype Anda -->
-            <!--
             <iframe
-              src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_URL"
-              title="MarketSpace Figma Prototype"
+              style="border: 1px solid rgba(0, 0, 0, 0.1);"
+              width="100%"
+              height="450"
+              src="https://embed.figma.com/proto/7aTE3g1JdVQy3un9qKRqjp/High-Fidelity?node-id=66-4&page-id=0%3A1&starting-point-node-id=66%3A4&embed-host=share"
+              title="MarketSpace High-Fidelity Prototype"
               allowfullscreen
             ></iframe>
-            -->
-            <!-- Placeholder saat belum ada iframe -->
-            <div class="prototype__placeholder">
-              <p class="prototype__placeholder-icon">▶</p>
-              <p class="prototype__placeholder-title">Figma Prototype</p>
-              <p class="prototype__placeholder-hint">Ganti atribut <code>src</code> pada iframe<br/>dengan link share Figma Anda.</p>
-            </div>
           </div>
         </figure>
       </div>
     </section>
+
+    <!-- ============================== TEST ============================== -->
+    <section class="test" id="test">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Test</p>
+          <h2 class="section-title">User <span class="accent">Testing</span></h2>
+          <p class="section-desc">Pengujian prototype dengan pengguna untuk memastikan kemudahan dan kenyamanan penggunaan.</p>
+        </header>
+
+        <div class="test__content">
+          <!-- Focus Area -->
+          <div class="test__focus">
+            <h3 class="test__focus-title">🎯 Fokus Utama</h3>
+            <p class="test__focus-desc">Saya berfokus pada masalah inti: <strong>memastikan kemudahan, kecepatan, dan akurasi penjual (UMKM) dalam memproses pesanan harian serta mengelola fitur promosi toko tanpa kebingungan teknis.</strong></p>
+          </div>
+
+          <!-- Gonceng Layout: Image + Metode + Table -->
+          <div class="test__gonceng-layout">
+            <!-- Left Image -->
+            <div class="test__gonceng-left">
+              <img src="tester.jpg" alt="Budi Santoso" class="test__gonceng-image">
+              <div class="test__gonceng-profile">
+                <h4 class="test__gonceng-profile-name">Budi Santoso</h4>
+                <p class="test__gonceng-profile-role">Pelaku UMKM / Pemilik Toko, 35 Tahun</p>
+                <blockquote class="test__quote test__quote--small" style="margin-top: 1rem;">
+                  "Sering merasa kewalahan mengatur promosi dan memastikan tidak salah kirim barang di aplikasi e-commerce yang menunya terlalu rumit."
+                </blockquote>
+              </div>
+            </div>
+            
+            <!-- Right Content -->
+            <div class="test__gonceng-right">
+              <!-- Metode Testing -->
+              <div class="test__card test__card--gonceng">
+                <h4 class="test__card-title">Metode Testing</h4>
+                <ul class="test__list">
+                  <li><strong>Metode:</strong> Qualitative Testing</li>
+                  <li><strong>Teknik:</strong> Task-based testing + wawancara singkat</li>
+                  <li><strong>Jumlah Responden:</strong> 1 orang</li>
+                </ul>
+              </div>
+
+              <!-- Scenario Task -->
+              <div class="test__card test__card--gonceng">
+                <h4 class="test__card-title">Contoh Task</h4>
+                <blockquote class="test__quote">
+                  "Anda baru saja menerima pesanan masuk untuk sepatu Ventela. Temukan cara untuk memproses pesanan tersebut hingga siap kirim, lalu buatlah sebuah poster promosi menggunakan fitur AI untuk meningkatkan visibilitas toko Anda."
+                </blockquote>
+              </div>
+
+              <!-- Table Results -->
+              <div class="test__card test__card--gonceng">
+                <h4 class="test__card-title">Hasil Pengujian Task</h4>
+                <div class="table-responsive">
+                  <table class="test__table test__table--gonceng">
+                    <thead>
+                      <tr>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Catatan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Membuka App & Beranda</td>
+                        <td>
+                          <div class="gonceng-status">
+                            <span class="gonceng-icon">☑️</span>
+                            <span class="gonceng-text">Berhasil</span>
+                          </div>
+                        </td>
+                        <td>Navigasi tab pesanan mudah dipindai.</td>
+                      </tr>
+                      <tr>
+                        <td>Input Lokasi</td>
+                        <td>
+                          <div class="gonceng-status">
+                            <span class="gonceng-icon">☑️</span>
+                            <span class="gonceng-text">Berhasil</span>
+                          </div>
+                        </td>
+                        <td>Alur jelas dan mudah dimengerti.</td>
+                      </tr>
+                      <tr>
+                        <td>Membuat Voucher</td>
+                        <td>
+                          <div class="gonceng-status">
+                            <span class="gonceng-icon">☑️</span>
+                            <span class="gonceng-text">Berhasil</span>
+                          </div>
+                        </td>
+                        <td>Adanya Preview visual memudahkan penjual.</td>
+                      </tr>
+                      <tr>
+                        <td>Generator Konten AI</td>
+                        <td>
+                          <div class="gonceng-status">
+                            <span class="gonceng-icon">☑️</span>
+                            <span class="gonceng-text">Berhasil</span>
+                          </div>
+                        </td>
+                        <td>Takjub dengan opsi share langsung.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Feedback & Improvement -->
+          <div class="test__grid test__grid--2col">
+            <!-- Feedback -->
+            <div class="test__card">
+              <div class="test__card-header">
+                <span class="test__icon">💬</span>
+                <h4 class="test__card-title">Feedback Pengguna</h4>
+              </div>
+              <div class="test__qa">
+                <div class="qa-item">
+                  <strong>Q: (Skala 1–5) Apakah mudah mengatur parameter promosi seperti batasan kuota dan nilai diskon?</strong>
+                  <p>"Sangat mudah (Skala 5). Tombol pilihan antara 'Nominal' dan 'Persentase' dipisah dengan sangat jelas, jadi saya tidak takut salah ketik nilai diskon yang bisa bikin toko rugi."</p>
+                </div>
+                <div class="qa-item">
+                  <strong>Q: Bagian mana yang paling membingungkan atau terasa janggal pada awalnya?</strong>
+                  <p>"Format tanggal di awal pengujian menggunakan gaya luar negeri (bulan/tanggal/tahun), dan sempat ada kebingungan di kotak input batasan jumlah pembelian karena ada simbol mata uang 'Rp' di sana."</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Improvement -->
+            <div class="test__card">
+              <div class="test__card-header">
+                <span class="test__icon">🛠️</span>
+                <h4 class="test__card-title">Hasil & Perbaikan</h4>
+              </div>
+              <div class="test__improvement">
+                <div class="improvement-block improvement-before">
+                  <span class="improvement-label">Before</span>
+                  <p>Terdapat inkonsistensi bahasa/lokalisasi (seperti Add New Voucher, format tanggal mm/dd/yyyy, dan penggunaan mata uang Dolar di pengaturan Live). Beberapa tombol aksi pendukung menggunakan warna yang keluar dari palet identitas brand.</p>
+                </div>
+                <div class="improvement-block improvement-after">
+                  <span class="improvement-label">After</span>
+                  <p>Melakukan lokalisasi total ke standar e-commerce Indonesia (format dd/mm/yyyy, Rupiah), menghapus sisa placeholder/wireframe, dan merapikan hierarki warna tombol aksi agar penjual tidak melakukan salah klik (terutama pada tombol Logout).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conclusion -->
+          <div class="test__conclusion">
+            <h3 class="test__conclusion-title">💡 Kesimpulan</h3>
+            <p>Prototype antarmuka Seller Center "MarketSpace" berhasil diuji secara fungsional untuk menjawab keluh kesah operasional harian UMKM. Aplikasi terbukti intuitif, alur operasional logistiknya dirancang untuk menekan human error, dan fitur kompleks seperti Live Commerce serta AI Generator disajikan dengan kurva pembelajaran yang rendah. Jika berkenan, pengembangan antarmuka selanjutnya akan berfokus pada dashboard laporan analitik keuangan yang lebih mendalam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TIMELINE ============================== -->
+    <section class="timeline" id="timeline">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Proses</p>
+          <h2 class="section-title">Timeline Pengerjaan <span class="accent">4 Minggu</span></h2>
+        </header>
+
+        <div class="timeline__grid">
+          <!-- Week 1 -->
+          <div class="timeline__card">
+            <div class="timeline__badge">Minggu 1</div>
+            <h3 class="timeline__title">Riset & Strategi</h3>
+            <p class="timeline__desc">Riset masalah operasional penjual UMKM, pengumpulan referensi antarmuka seller center, dan mendefinisikan kebutuhan pengguna. Dilanjutkan dengan menyusun Problem Statement, How Might We (HMW), serta menentukan prioritas fitur utama (logistik & promosi).</p>
+          </div>
+
+          <!-- Week 2 -->
+          <div class="timeline__card">
+            <div class="timeline__badge">Minggu 2</div>
+            <h3 class="timeline__title">Ideasi & Wireframing</h3>
+            <p class="timeline__desc">Brainstorming ide solusi dan arsitektur informasi. Kemudian dilanjutkan dengan merancang User Flow (alur pemrosesan pesanan hingga fitur AI), serta pembuatan sketsa dasar dan wireframe low-fidelity.</p>
+          </div>
+
+          <!-- Week 3 -->
+          <div class="timeline__card">
+            <div class="timeline__badge">Minggu 3</div>
+            <h3 class="timeline__title">Desain Visual & Prototyping</h3>
+            <p class="timeline__desc">Mengeksekusi desain High-Fidelity (Hi-Fi) UI dengan tema visual yang bersih, modern, dan fungsional khas e-commerce. Meliputi perancangan sistem komponen dan penyusunan prototype interaktif.</p>
+          </div>
+
+          <!-- Week 4 -->
+          <div class="timeline__card">
+            <div class="timeline__badge">Minggu 4</div>
+            <h3 class="timeline__title">Testing & Iterasi</h3>
+            <p class="timeline__desc">Melakukan Usability Testing kepada target pengguna, mengumpulkan feedback, melakukan revisi perbaikan logika UI/UX (seperti lokalisasi format dan hierarki tombol), serta finalisasi penyusunan portofolio UI/UX.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- ============================== CREATOR PROFILE ============================== -->
+  <section class="creator" id="creator">
+    <div class="container">
+      <header class="creator-header">
+        <h2 class="creator-title">Creator Profile</h2>
+      </header>
+
+      <div class="creator__profile-wrapper">
+        <div class="creator__card creator__card--single">
+          <div class="creator__photo-wrapper">
+            <div class="creator__photo"><span>👨‍💻</span></div>
+          </div>
+          <h3 class="creator__name">Ahmad Rifai</h3>
+          <p class="creator__nim">253307049</p>
+          <div class="creator__socials">
+            <a href="#" class="creator__social-icon creator__social-icon--linkedin" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="creator__social-icon creator__social-icon--instagram" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://github.com/AhmadRifai19" class="creator__social-icon creator__social-icon--github" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ============================== FOOTER ============================== -->
   <footer class="footer" id="contact">
     <div class="footer__inner container">
       <div class="footer__brand">
         <a href="#" class="footer__logo">
-          <span class="nav__logo-mark">M</span>
+          <img src="logo.png" alt="MarketSpace Logo" class="nav__logo-img" />
           MarketSpace
         </a>
         <p class="footer__desc">Studi kasus desain UI/UX untuk aplikasi e-commerce modern. Dibuat sebagai proyek akhir semester.</p>
